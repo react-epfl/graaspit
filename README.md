@@ -19,10 +19,10 @@ Create your GraaspIt! plugin
 1. Change "PluginMock" to your own plugin name ("Youtube") and rename this file
 
 2. Implement two functions findName and findEmbedCode (you can use firebug for it)
-  - findName (finds name for grasped page).
-    **Example**: Page title, paragraph, everything that can be found in DOM with javascript
-  - findEmbedCode (finds a code that will be shown to people in graasp).
+  * findName (finds name for grasped page).
+    **Example**: Page title, paragraph, everything that can be found in the DOM with JavaScript
+  * findEmbedCode (finds a code that will be shown to people in Graasp).
     **Example**: html block, embed code, img element.
-  - JQuery is available as: "jQuery" is a namespace for "$"
+  * JQuery is available as: "jQuery" is a namespace for "$"
 3. send us the url part that this plugin should match
    example: 'role-widgetstore.eu/content', 'www.google.com/*directory/*'
