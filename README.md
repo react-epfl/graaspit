@@ -1,5 +1,5 @@
-GraaspIt! plugin architecture
-============================
+GraaspIt! plugin
+================
 GraaspIt! is a bookmarklet application which can be invoked on any Web
 page to scrap data and to send it to [Graasp][http://graasp.epfl.ch]
 with a POST request. Everybody can create plugins for your own web
