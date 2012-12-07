@@ -14,17 +14,17 @@ pages/platforms.  Your plugin should send the following information:
  
 Create your GraaspIt! plugin
 ============================
-0. Copy the plugin_mock.js file as the skeleton of you plugin.
+0. Copy the plugin_mock.js file as the skeleton of you plugin and choose your plugin name.
 
-1. Change "PluginMock" to your own plugin name (ex.: "Youtube") and rename this file
+1. Change "PluginMock" to your own plugin name everywhere in the code and rename the plugin file
 
-2. Implement scraping functions findName, findEmbedCode and findThumbnail
+2. Implement scraping functions *findName*, *findEmbedCode* and *findThumbnail*
   - you can use firebug to test them
   - JQuery is available as: "jQuery" is a namespace for "$"
 
-3. Decide if you scrape a resources or an app and change *i3a_type* in
+3. Decide if you want to scrape resource or apps and change *i3a_type* in
    the code accordingly
 
-4. Add the url part, your plugin matches in the comments on the top of the file.
+4. Add the url part, your plugin will match in the comments on the top of the file.
 
 5. Send us a pull request on github with your plugin.
