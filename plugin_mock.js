@@ -2,6 +2,7 @@
  * PluginMock
  *
  * matches urls: 'www.plugin-mock.com/*item.html'
+ *
  */
 
 function GraaspItScriptInit() {
@@ -13,7 +14,7 @@ function GraaspItScriptInit() {
 }
 
 graaspit.plugin.PluginMock = function () {
-  this.manager = graaspit.instance; // Graaspit object that loaded the plugin
+  this.manager = graaspit.instance; // GraaspIt! object that loaded the plugin
   this.manager.registerPlugin (this);
 }
 
@@ -56,7 +57,7 @@ graaspit.plugin.PluginMock.prototype = {
   /**
    * Searches and returns the thumbnail url of item to be grasped
    *
-   * Example: html block, embed code, img element
+   * Example: www.plugin-mock.com/thumb_item1.png
    */
   findThumbnail: function(){
     // You have to implement your own function here
@@ -67,6 +68,8 @@ graaspit.plugin.PluginMock.prototype = {
 
   /**
    * Searches and returns the embed content of item to be grasped
+   *
+   * Example: html block, embed code, img element
    */
   findEmbedCode: function(){
     // You have to implement your own DOM query here
