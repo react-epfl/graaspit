@@ -1,7 +1,7 @@
 GraaspIt! plugin
 ================
 GraaspIt! is a bookmarklet application which can be invoked on any Web
-page to scrap data and to send it to [Graasp](http://graasp.epfl.ch)
+page to scrape data and to send it to [Graasp](http://graasp.epfl.ch)
 with a POST request. Everybody can create plugins for their own web
 pages/platforms.  Your plugin should send the following information:
 
@@ -14,16 +14,17 @@ pages/platforms.  Your plugin should send the following information:
  
 Create your GraaspIt! plugin
 ============================
-0. Check the plugin_mock.js file as an example.
+0. Copy the plugin_mock.js file as the skeleton of you plugin.
 
-1. Change "PluginMock" to your own plugin name "Youtube" and rename this file
+1. Change "PluginMock" to your own plugin name (ex.: "Youtube") and rename this file
 
-2. Implement two functions findName and findEmbedCode (you can use firebug for it)
-  * findName (finds name for grasped page).
-    **Example**: Page title, paragraph, everything that can be found in the DOM with JavaScript
-  * findEmbedCode (finds a code that will be shown to people in Graasp).
-    **Example**: html block, embed code, img element.
-  * JQuery is available as: "jQuery" is a namespace for "$"
-3. Add the url part your plugin matches in the comments on the top of the file.
-   **Example**: 'role-widgetstore.eu/content', 'www.google.com/*directory/*'
-4. Send us a pull request on github with your plugin.
+2. Implement scraping functions findName, findEmbedCode and findThumbnail
+  - you can use firebug to test them
+  - JQuery is available as: "jQuery" is a namespace for "$"
+
+3. Decide if you scrape a resources or an app and change *i3a_type* in
+   the code accordingly
+
+4. Add the url part, your plugin matches in the comments on the top of the file.
+
+5. Send us a pull request on github with your plugin.

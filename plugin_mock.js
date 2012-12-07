@@ -41,6 +41,8 @@ graaspit.plugin.PluginMock.prototype = {
 
   /**
    * Searches and returns the name of item to be grasped
+   *
+   * Example: Page title, paragraph, everything that can be found in the DOM with JavaScript
    */
   findName: function(){
     // You have to implement your own DOM query here
@@ -52,7 +54,9 @@ graaspit.plugin.PluginMock.prototype = {
   },
 
   /**
-   * Searches and returns the thumbnail of item to be grasped
+   * Searches and returns the thumbnail url of item to be grasped
+   *
+   * Example: html block, embed code, img element
    */
   findThumbnail: function(){
     // You have to implement your own function here
