@@ -29,8 +29,9 @@ Create your GraaspIt! plugin
 
 5. Send us a pull request on github with your plugin.
 
-License
-=======
+License - MIT
+=============
+
 Copyright (C) 2012 EPFL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
