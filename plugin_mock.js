@@ -1,5 +1,5 @@
 /**
- * PluginMock
+ * PluginMock (plugin_mock.js)
  *
  * matches urls: 'www.plugin-mock.com/*item.html'
  *
