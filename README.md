@@ -28,6 +28,8 @@ Create your GraaspIt! plugin
 4. Add the url part, your plugin will match in the comments on the top of the file.
 ````
     // ['role-widgetstore.eu/tool', 'widget_store.js'],
+    // or
+    // ['www.google.com/ig/*/directory/*', 'google_gadget.js']
 ````
 5. Send us a pull request on github with your plugin.
 
